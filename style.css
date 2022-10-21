@@ -1,16 +1,3 @@
-:root {
-  --apricot: #fed5baff;
-  --desert-sand: #f1cab2ff;
-  --middle-yellow-red: #efb57cff;
-  --bronze: #ca8646ff;
-  --rocket-metallic: #806d66ff;
-  --liver: #5e4b4bff;
-  --umber: #5d4f44ff;
-  --raisin-black: #302c35ff;
-  --rich-black-fogra-29: #030f16ff;
-  --rich-black-fogra-39: #020303ff;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +20,6 @@ body,
 }
 
 .right {
-  /* background-image: url("https://images.unsplash.com/photo-1666122093052-82dda8cff1be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"); */
   background-image: url("./images/main-right-1.jpeg");
   background-position: center;
   background-size: cover;
@@ -61,15 +47,35 @@ body,
   background-color: #f6e6cb;
 }
 
-.left h1 {
+.left h1,
+.left form .header a,
+.left form .header a:visited {
   color: #eddbc0;
 }
 
+.left form .header a:hover {
+  color: #daba8a;
+}
+
+.left form .header {
+  display: flex;
+}
+
+.left form .header a {
+  text-decoration: none;
+}
+
 .left form {
-  text-align: center;
   background-color: #bf9270;
   padding: 3rem 1rem;
   border-radius: 8px;
+
+  min-width: 250px;
+  min-height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left input {
