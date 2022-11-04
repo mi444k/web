@@ -59,7 +59,7 @@ body,
 }
 
 .left img {
-  filter: invert(87%) sepia(2%) saturate(3495%) hue-rotate(334deg) brightness(116%) contrast(89%);
+  filter: invert(91%) sepia(17%) saturate(409%) hue-rotate(339deg) brightness(102%) contrast(93%);
 }
 
 .left a:hover img {
